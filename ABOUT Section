@@ -1,0 +1,34 @@
+<section id="about">
+  <h2>About</h2>
+
+  <p style="max-width: 750px;">
+    I grew up in the technology age — where creativity, culture, and systems
+    collide. My work lives at the intersection of editorial aesthetics,
+    operational strategy, and digital storytelling.
+  </p>
+
+  <p style="max-width: 750px;">
+    From content production and brand narratives to workflow design and
+    automation, I help creators and businesses move with intention —
+    visually, strategically, and sustainably.
+  </p>
+
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem; margin-top: 3rem;">
+    <div>
+      <h3>Creative Strategy</h3>
+      <p>Concept development, narrative direction, visual cohesion.</p>
+    </div>
+    <div>
+      <h3>Digital Media</h3>
+      <p>Video editing, content systems, platform-first storytelling.</p>
+    </div>
+    <div>
+      <h3>Operations & Systems</h3>
+      <p>Workflows, automation, client experience, organization.</p>
+    </div>
+    <div>
+      <h3>Culture & Aesthetics</h3>
+      <p>Streetwear elegance, editorial framing, futuristic minimalism.</p>
+    </div>
+  </div>
+</section>
