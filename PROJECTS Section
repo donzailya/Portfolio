@@ -1,0 +1,39 @@
+<section id="projects">
+  <h2>Selected Work</h2>
+
+  <div style="display: grid; gap: 3rem; margin-top: 3rem;">
+
+    <div>
+      <h3>Marketing & Operations — American Light Design</h3>
+      <p class="tagline">Consulting • SEO • Systems • Automation</p>
+      <p>
+        Led digital marketing, internal systems, and operational workflows
+        for a growing home lighting business.
+      </p>
+      <ul>
+        <li>Improved Google Business visibility & SEO</li>
+        <li>Built scalable internal systems using Google Workspace & AI tools</li>
+        <li>Streamlined client communications and lead management</li>
+      </ul>
+    </div>
+
+    <div>
+      <h3>Donzailya vs. Denver</h3>
+      <p class="tagline">Video Series • Editing • Storytelling</p>
+      <p>
+        A vlog-style editorial series blending travel, culture,
+        and personal narrative — edited with a reality-TV inspired approach.
+      </p>
+    </div>
+
+    <div>
+      <h3>Event & Community Media</h3>
+      <p class="tagline">Video • Programming • Engagement</p>
+      <p>
+        Produced and edited content for university and community events,
+        translating live experiences into lasting digital stories.
+      </p>
+    </div>
+
+  </div>
+</section>
