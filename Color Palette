@@ -1,0 +1,8 @@
+:root {
+  --ink: #0e0e0e;
+  --bone: #f4f1ec;
+  --maroon: #6b1f2b;
+  --denim: #2f3a4a;
+  --sage: #4f6f63;
+  --muted: #8e8e8e;
+}
