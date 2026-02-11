@@ -1,0 +1,19 @@
+<section style="min-height: 90vh; display: flex; flex-direction: column; justify-content: center;">
+  <span class="tagline">Creative Strategy • Technology • Culture</span>
+
+  <h1 style="font-size: 4rem; max-width: 800px;">
+    I build stories, systems, and visuals<br>
+    for the modern internet.
+  </h1>
+
+  <p style="max-width: 600px; font-size: 1.1rem;">
+    I’m Donzailya — a multidisciplinary creative strategist blending
+    digital media, operations, and culture-driven storytelling.
+    Rooted in aesthetics. Powered by systems.
+  </p>
+
+  <div style="margin-top: 2rem;">
+    <a href="#projects" style="margin-right: 2rem;">View Work</a>
+    <a href="#contact">Let’s Collaborate</a>
+  </div>
+</section>
