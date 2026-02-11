@@ -1,56 +1,16 @@
-style.css
-body {
-  margin: 0;
-  font-family: "Helvetica Neue", Arial, sans-serif;
-  background-color: #f5f5f5;
-  color: #222;
+/* ---------- DESIGN SYSTEM ---------- */
+
+:root {
+  --ink: #0e0e0e;
+  --bone: #f4f1ec;
+  --maroon: #4a1d2f;
+  --denim: #2f3a4a;
+  --sage: #4f6f63;
+  --muted: #8e8e8e;
 }
 
-.hero {
-  padding: 80px 20px;
-  text-align: center;
-  background: #4a1d2f; /* maroon vibe */
-  color: #fff;
-}
+/* ---------- GLOBAL ---------- */
 
-.hero h1 {
-  font-size: 3rem;
-  margin-bottom: 10px;
-}
-
-.hero p {
-  font-size: 1.1rem;
-  letter-spacing: 1px;
-}
-
-section {
-  max-width: 800px;
-  margin: 60px auto;
-  padding: 0 20px;
-}
-
-h2 {
-  margin-bottom: 20px;
-  font-size: 1.8rem;
-}
-
-ul {
-  list-style: none;
-  padding: 0;
-}
-
-ul li {
-  padding: 10px 0;
-  border-bottom: 1px solid #ddd;
-}
-
-.footer {
-  text-align: center;
-  padding: 40px;
-  font-size: 0.9rem;
-  color: #777;
-}
-<style>
 body {
   margin: 0;
   background-color: var(--bone);
@@ -63,10 +23,27 @@ section {
   padding: 6rem 10%;
 }
 
+/* ---------- TYPOGRAPHY ---------- */
+
 h1, h2, h3 {
   font-family: 'Playfair Display', serif;
   letter-spacing: -0.5px;
+  margin-bottom: 1rem;
 }
+
+h1 {
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+p {
+  max-width: 700px;
+}
+
+/* ---------- LINKS ---------- */
 
 a {
   color: var(--ink);
@@ -78,10 +55,49 @@ a:hover {
   color: var(--maroon);
 }
 
+/* ---------- HERO ---------- */
+
+.hero {
+  min-height: 90vh;
+  padding: 6rem 10%;
+  background-color: var(--maroon);
+  color: var(--bone);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero p {
+  font-size: 1.1rem;
+}
+
+/* ---------- TAGLINE ---------- */
+
 .tagline {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 0.75rem;
   color: var(--muted);
+  margin-bottom: 1rem;
 }
-</style>
+
+/* ---------- LISTS ---------- */
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+/* ---------- FOOTER ---------- */
+
+.footer {
+  text-align: center;
+  padding: 4rem 2rem;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
