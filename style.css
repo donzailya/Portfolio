@@ -50,3 +50,38 @@ ul li {
   font-size: 0.9rem;
   color: #777;
 }
+<style>
+body {
+  margin: 0;
+  background-color: var(--bone);
+  color: var(--ink);
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+}
+
+section {
+  padding: 6rem 10%;
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+  letter-spacing: -0.5px;
+}
+
+a {
+  color: var(--ink);
+  text-decoration: none;
+  border-bottom: 1px solid var(--maroon);
+}
+
+a:hover {
+  color: var(--maroon);
+}
+
+.tagline {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 0.75rem;
+  color: var(--muted);
+}
+</style>
